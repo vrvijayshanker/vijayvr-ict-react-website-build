@@ -59,11 +59,6 @@ mongoose.connect("mongodb+srv://vijayvr:123vijayvr@cluster1.zt8bq.mongodb.net/ic
 .catch(console.error)
 
 
-app.get('/', async(req, res) => {
-    res.send('<h4> Welcome ICT React Site - Backend</h4>');
-    console.log('console home');
-});
-
 //Admin Login
 const Admin = require('./models/Admin')
 
